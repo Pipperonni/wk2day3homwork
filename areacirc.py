@@ -4,16 +4,12 @@
 # 1) Has a function to calculate the square footage of a house
 # Reminder of Formula: Length X Width == Area
 
-def sq_area():
-    len = int(input("What is the length? "))
-    width = int(input("What is the width? "))
+def sq_area(len,width):
     area = len * width
     return area
 
 
-def circumf_circle():
-    radius = int(input("What is the radius of the circle? "))
+def circumf_circle(radius):
     c = 2 * 3.147 * radius
     return c
 
-print(circumf_circle())
